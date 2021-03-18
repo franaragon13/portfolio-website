@@ -162,23 +162,23 @@
 				<p>Si te ha parecido que encajo en tu equipo y quieres saber más sobre mi o simplemente quieres charlar
 					sobre el desarrollo y diseño web, no dudes en escribirme por cualquiera de los medios que verás
 					justo aquí debajo. ¡Estaré encantado de conocerte!.</p>
-				<form method="post" action="mailto:franaragondeveloper@gmail.com">
+				<form method="post" action="assets/php/formulario.php">
 					<div class="fields">
 						<div class="field">
 							<label for="name">Nombre</label>
-							<input type="text" name="name" id="name" />
+							<input required type="text" name="name" id="name" />
 						</div>
 						<div class="field">
 							<label for="email">Email</label>
-							<input type="email" name="email" id="email" />
+							<input required type="email" name="email" id="email" />
 						</div>
 						<div class="field">
 							<label for="message">Mensage</label>
-							<textarea name="message" id="message" rows="4"></textarea>
+							<textarea required name="message" id="message" rows="4"></textarea>
 						</div>
 					</div>
 					<ul class="actions">
-						<li><input type="submit" value="Enviar" /></li>
+						<li><input id='btn_Enviar' type="submit" value="Enviar" /></li>
 					</ul>
 				</form>
 				<ul class="contact">
