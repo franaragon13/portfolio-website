@@ -3092,6 +3092,9 @@ input, select, textarea {
 		}
 
 /* Header */
+#header>h1#responsive{
+	display: none;
+}
 
 	#header {
 		-moz-transition: background-color 0.2s ease-in-out;
@@ -3246,6 +3249,13 @@ input, select, textarea {
 					padding-right: 1.25em;
 				}
 
+				#header>h1{
+					display: none;
+				}
+
+				#header>h1#responsive{
+					display: block;
+				}
 		}
 
 /* Menu */
