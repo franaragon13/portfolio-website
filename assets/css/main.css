@@ -247,7 +247,19 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-
+	
+	.imagenes_proyectos > picture{
+		width: 60%;
+	}
+	
+	.imagenes_proyectos_js > picture{
+		width: 97%;
+	}
+	
+	.imagenes_proyectos_js_php > picture{
+		width: 97%;
+	}
+	
 	html,
 	body {
 		min-width: 320px;
