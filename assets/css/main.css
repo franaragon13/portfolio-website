@@ -109,6 +109,36 @@ section {
 	cursor: pointer;
 }
 
+.imagenes_proyectos{
+	display: flex;
+	flex: 0 40%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.imagenes_proyectos > picture{
+	width: 30%;
+}
+
+.imagenes_proyectos > picture > img{
+	width: 100%;
+	border: 0.4rem solid #353849;
+	border-radius: 5px;
+}
+
+#desktop{
+	display: flex;
+	justify-content: center;
+}
+
+#desktop_artinkoo1{
+	width:97%;
+	border: 0.4rem solid #353849;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+}
+
 body {
 	line-height: 1;
 }
