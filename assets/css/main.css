@@ -116,8 +116,23 @@ section {
 	justify-content: space-around;
 }
 
+.imagenes_proyectos_js{
+	display: flex;
+	flex: 0 40%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
 .imagenes_proyectos > picture{
 	width: 30%;
+}
+
+.imagenes_proyectos_js > picture{
+	width: 47%;
+}
+
+#apotheke1{
+	height: 89%;
 }
 
 .imagenes_proyectos > picture > img{
@@ -126,12 +141,19 @@ section {
 	border-radius: 5px;
 }
 
-#desktop{
-	display: flex;
-	justify-content: center;
+.imagenes_proyectos_js > picture > img{
+	width: 100%;
+	border: 0.4rem solid #353849;
+	border-radius: 5px;
 }
 
-#desktop_artinkoo1{
+.seccion_baja{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5%;
+}
+
+.imagen_baja{
 	width:97%;
 	border: 0.4rem solid #353849;
 	border-radius: 5px;
