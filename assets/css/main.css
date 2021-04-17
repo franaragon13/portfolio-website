@@ -260,6 +260,18 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+	.imagenes-logos{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.imagenes-logos > img{
+		margin: 1rem;
+		width: 3rem;
+		height: 3rem;
+		border-radius: 100px;
+	}
 
 	.imagenes_proyectos>picture {
 		width: 60%;
@@ -375,6 +387,19 @@ textarea {
 }
 
 @media screen and (max-width: 736px) {
+	.imagenes-logos{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.imagenes-logos > img{
+		margin: 1rem;
+		width: 6rem;
+		height: 6rem;
+		border-radius: 100px;
+	}
+
 	.imagenes_proyectos>picture {
 		width: 60%;
 	}
@@ -1386,6 +1411,19 @@ hr.major {
 }
 
 @media screen and (max-width: 980px) {
+
+	.imagenes-logos{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.imagenes-logos > img{
+		margin: 1rem;
+		width: 8rem;
+		height: 8rem;
+		border-radius: 100px;
+	}
 
 	.row {
 		display: flex;
@@ -3899,6 +3937,18 @@ body.is-menu-visible #menu .inner {
 }
 
 @media screen and (max-width: 1280px) {
+	.imagenes-logos{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.imagenes-logos > img{
+		margin: 1rem;
+		width: 8rem;
+		height: 8rem;
+		border-radius: 100px;
+	}
 
 	#banner {
 		padding: 7em 0 8.25em 0;
