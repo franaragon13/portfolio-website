@@ -105,6 +105,19 @@ section {
 	display: block;
 }
 
+.imagenes-logos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.imagenes-logos > img{
+	margin: 2rem;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 100px;
+}
+
 #certificados {
 	cursor: pointer;
 }
