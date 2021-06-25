@@ -13,6 +13,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block;
 }
 
+.imagen_baja {
+	cursor: pointer;
+}
+
 .imagenes-logos {
 	display: flex;
 	flex-wrap: wrap;
@@ -3901,7 +3905,6 @@ body.is-preload #banner p {
 		height: 5.5rem;
 		border-radius: 100px;
 	}
-
 	.imagenes_proyectos>picture {
 		width: 60%;
 	}
@@ -3938,7 +3941,6 @@ body.is-preload #banner p {
 		height: 4.5rem;
 		border-radius: 100px;
 	}
-
 	.imagenes_proyectos>picture {
 		width: 60%;
 	}
