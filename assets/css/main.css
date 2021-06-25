@@ -13,10 +13,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block;
 }
 
-.imagen_baja {
-	cursor: pointer;
-}
-
 .imagenes-logos {
 	display: flex;
 	flex-wrap: wrap;
